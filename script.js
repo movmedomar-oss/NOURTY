@@ -30,7 +30,7 @@
 
 <div class="overlay"></div>
 
-<img id="heroImage" src="images/1.jpg">
+<img id="https://i.postimg.cc/NF44dDVh/f1-jpeg.jpg>
 
 <div class="heroContent">
 
@@ -74,7 +74,7 @@ You became my home.
 
 <section id="movie">
 
-<img id="slider" src="images/1.jpg">
+<img id="https://files.catbox.moe/75jpsu.mp4">
 
 <div class="movieText">
 
@@ -106,21 +106,21 @@ Our Beautiful Memories
 
 <div class="cards">
 
-<img src="images/1.jpg">
+<img src="https://i.postimg.cc/7YP8wWqz/f2-jpeg.jpg">
 
-<img src="images/2.jpg">
+<img src="https://i.postimg.cc/s2hbTFJx/bb-jpeg.jpg">
 
-<img src="images/3.jpg">
+<img src="https://i.postimg.cc/wM0r199b/sea-jpeg.jpg">
 
-<img src="images/4.jpg">
+<img src="https://i.postimg.cc/WbYKjpWJ/hot-jpeg.jpg">
 
-<img src="images/5.jpg">
+<img src="https://i.postimg.cc/jSGFwgrV/moot-jpeg.jpg">
 
-<img src="images/6.jpg">
+<img src="https://i.postimg.cc/zXwS5qJ1/Whats-App-Image-2026-07-23-at-12-40-05-AM.jpg">
 
-<img src="images/7.jpg">
+<img src="https://i.postimg.cc/mg8YzVzp/Whats-App-Image-2026-07-23-at-12-39-45-AM.jpg">
 
-<img src="images/8.jpg">
+<img src="https://i.postimg.cc/NF44dDVh/f1-jpeg.jpg">
 
 </div>
 
