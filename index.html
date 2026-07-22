@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Nour ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Intro -->
+
+<div id="intro">
+
+<h1 class="netflix">NETFLIX</h1>
+
+</div>
+
+<!-- Hero -->
+
+<header id="hero">
+
+<div class="overlay"></div>
+
+<img id="heroImage" src="images/1.jpg">
+
+<div class="heroContent">
+
+<h1>NOUR ❤️</h1>
+
+<p>
+
+2026 • Romance • Forever • 4K Ultra HD
+
+</p>
+
+<h3>
+
+Some people become memories...
+
+You became my home.
+
+</h3>
+
+<div class="buttons">
+
+<button id="play">
+
+▶ Play
+
+</button>
+
+<button>
+
+❤ My List
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- Movie -->
+
+<section id="movie">
+
+<img id="slider" src="images/1.jpg">
+
+<div class="movieText">
+
+<h2 id="episode">
+
+Episode 1
+
+</h2>
+
+<p id="message">
+
+The day everything changed...
+
+</p>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery">
+
+<h2>
+
+Our Beautiful Memories
+
+</h2>
+
+<div class="cards">
+
+<img src="images/1.jpg">
+
+<img src="images/2.jpg">
+
+<img src="images/3.jpg">
+
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+
+<img src="images/6.jpg">
+
+<img src="images/7.jpg">
+
+<img src="images/8.jpg">
+
+</div>
+
+</section>
+
+<!-- Ending -->
+
+<section id="ending">
+
+<h1>
+
+Dear Nour...
+
+</h1>
+
+<p>
+
+I know things haven't been easy lately.
+
+Maybe I made mistakes.
+
+Maybe I hurt you without even realizing it.
+
+I'm not asking you to forget everything.
+
+I'm not asking you to decide because of this page.
+
+I just wanted you to know...
+
+Everything I ever felt for you was real.
+
+If this is our last chapter...
+
+Thank you for every beautiful memory.
+
+But if our story still has one more page left...
+
+I'll still be here.
+
+Waiting...
+
+❤️
+
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

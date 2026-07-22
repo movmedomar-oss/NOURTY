@@ -1,0 +1,545 @@
+/* ==========================
+   NOUR+ CINEMATIC STYLE
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#e50914;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+/* Intro */
+
+#intro{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+
+    background:#000;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    z-index:9999;
+
+    animation:introHide 4s forwards;
+}
+
+#intro h1{
+
+    color:#e50914;
+
+    font-size:80px;
+
+    letter-spacing:8px;
+
+    text-shadow:0 0 30px #e50914;
+
+    animation:logo 2s infinite alternate;
+
+}
+
+#intro p{
+
+    margin-top:20px;
+
+    color:#ddd;
+
+    letter-spacing:3px;
+
+}
+
+/* Hero */
+
+.hero{
+
+    position:relative;
+
+    height:100vh;
+
+    overflow:hidden;
+
+}
+
+.heroImage{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    filter:brightness(.45);
+
+    animation:zoomHero 20s linear infinite alternate;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    background:
+
+    linear-gradient(to top,#050505 0%,transparent 50%,rgba(0,0,0,.5));
+
+}
+
+.heroText{
+
+    position:absolute;
+
+    left:7%;
+
+    bottom:12%;
+
+    max-width:650px;
+
+}
+
+.heroText h1{
+
+    font-size:75px;
+
+    color:#fff;
+
+    margin-bottom:10px;
+
+}
+
+.heroText h3{
+
+    color:#ff2d55;
+
+    font-weight:500;
+
+    margin-bottom:20px;
+
+}
+
+.heroText p{
+
+    line-height:1.9;
+
+    color:#ddd;
+
+    font-size:18px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:35px;
+
+}
+
+.buttons button{
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:16px 38px;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    transition:.35s;
+
+}
+
+#playBtn{
+
+    background:#fff;
+
+    color:#000;
+
+}
+
+#playBtn:hover{
+
+    transform:scale(1.08);
+
+}
+
+#musicBtn{
+
+    background:#e50914;
+
+    color:#fff;
+
+}
+
+#musicBtn:hover{
+
+    background:#ff3440;
+
+    transform:scale(1.08);
+
+}
+
+/* Days */
+
+.days{
+
+    padding:100px 20px;
+
+    text-align:center;
+
+}
+
+.days h2{
+
+    color:#aaa;
+
+    margin-bottom:15px;
+
+}
+
+.days h1{
+
+    font-size:65px;
+
+    color:#fff;
+
+    text-shadow:0 0 20px #e50914;
+
+}/* ==========================
+   EPISODES
+========================== */
+
+.episodes{
+    padding:90px 6%;
+}
+
+.episodes h2{
+    font-size:32px;
+    margin-bottom:35px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#111;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.4s;
+    cursor:pointer;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.card:hover{
+    transform:translateY(-12px) scale(1.03);
+    box-shadow:0 15px 40px rgba(229,9,20,.4);
+}
+
+.card img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+}
+
+.card div{
+    padding:18px;
+}
+
+.card h3{
+    margin-bottom:12px;
+    color:#fff;
+}
+
+.card p{
+    color:#bdbdbd;
+    line-height:1.7;
+}
+
+/* ==========================
+   GALLERY
+========================== */
+
+.gallery{
+    padding:90px 6%;
+    text-align:center;
+}
+
+.gallery h2{
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+#slider{
+    width:100%;
+    max-width:900px;
+    height:550px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:1s;
+    box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+
+/* ==========================
+   MESSAGES
+========================== */
+
+.messages{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.messages h2{
+    margin-bottom:25px;
+    font-size:30px;
+}
+
+#message{
+    max-width:850px;
+    margin:auto;
+    font-size:26px;
+    color:#fff;
+    line-height:1.8;
+    transition:.8s;
+}
+
+/* ==========================
+   ENDING
+========================== */
+
+.ending{
+    padding:100px 6%;
+    text-align:center;
+}
+
+.ending img{
+    width:100%;
+    max-width:700px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+}
+
+.ending h1{
+    font-size:42px;
+    line-height:1.6;
+    margin-bottom:40px;
+}
+
+.ending button{
+    padding:18px 45px;
+    border:none;
+    border-radius:10px;
+    background:#e50914;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    transition:.35s;
+}
+
+.ending button:hover{
+    transform:scale(1.08);
+    background:#ff2330;
+}/* ==========================
+   ANIMATIONS
+========================== */
+
+@keyframes introHide{
+    0%{
+        opacity:1;
+        visibility:visible;
+    }
+
+    85%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0;
+        visibility:hidden;
+    }
+}
+
+@keyframes logo{
+
+    from{
+        transform:scale(1);
+        text-shadow:0 0 15px #e50914;
+    }
+
+    to{
+        transform:scale(1.08);
+        text-shadow:0 0 45px #ff3344;
+    }
+
+}
+
+@keyframes zoomHero{
+
+    from{
+        transform:scale(1);
+    }
+
+    to{
+        transform:scale(1.12);
+    }
+
+}
+
+.fade{
+    animation:fade .8s;
+}
+
+@keyframes fade{
+
+    from{
+        opacity:0;
+        transform:scale(.97);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+
+/* Glow */
+
+.heroText h1,
+.days h1,
+.ending h1{
+
+    text-shadow:
+    0 0 15px rgba(229,9,20,.5),
+    0 0 35px rgba(229,9,20,.25);
+
+}
+
+/* Hover Images */
+
+.card img,
+#slider,
+.ending img{
+
+    transition:.5s;
+
+}
+
+.card:hover img,
+#slider:hover,
+.ending img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.heroText{
+
+left:25px;
+right:25px;
+bottom:70px;
+
+}
+
+.heroText h1{
+
+font-size:48px;
+
+}
+
+.heroText h3{
+
+font-size:22px;
+
+}
+
+.heroText p{
+
+font-size:16px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+}
+
+.buttons button{
+
+width:100%;
+
+}
+
+.days h1{
+
+font-size:42px;
+
+}
+
+#slider{
+
+height:320px;
+
+}
+
+.ending h1{
+
+font-size:30px;
+
+}
+
+.card img{
+
+height:260px;
+
+}
+
+}
